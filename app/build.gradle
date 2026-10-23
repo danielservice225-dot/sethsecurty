@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'ci.sethsecurity.coffre'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ci.sethsecurity.coffre'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '2.0'
+    }
+}
